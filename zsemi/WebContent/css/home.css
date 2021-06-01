@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+
+#sub{
+    border:1px solid #000;
+    width:150px;
+    height: 600px;
+    box-sizing: border-box;
+}
+
+#main{
+    border:1px solid #000;
+    width: 1250px;
+    height: 600px;
+    box-sizing: border-box;
+}
+
+#btn_more{
+    float:right;
+}
+
+#fr_ge{
+    margin:10px;
+    
+}
+
+
+
+
+
+
+#free{
+ border: 1px solid #000000;
+ width: 550px;
+ height: 300px;
+ box-sizing: border-box;
+}
+#gesi{
+    border: 1px solid #000000;
+    width: 550px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+#log{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#totpage{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#totpage2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#video{
+    width:1100px;
+    height:300px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+#gong{
+    
+    width:300px;
+    height:300px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}

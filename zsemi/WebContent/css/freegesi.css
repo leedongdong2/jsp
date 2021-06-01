@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+#page{
+    display: flex;
+}
+#sub{
+    border:1px solid #000;
+    width:150px;
+    height: 600px;
+    box-sizing: border-box;
+}
+
+#main{
+    display: inline-block;
+    border:1px solid #000;
+    width: 1250px;
+    height: 600px;
+    box-sizing: border-box;
+}
+
+#btn_more{
+    float:right;
+}
+
+#fr_ge{
+    margin:10px;
+    
+}
+
+
+
+#asd{
+    float: right;
+    margin-top:30px;
+}
+
+#main .no{display: inline-block; width:80px;}
+#main .date{display: inline-block; width:100px;}
+#main .subject{display: inline-block; width:800px;}
+#main .mid{display: inline-block; width:100px;}
+#main .hit{display: inline-block; width:100px;}
+
+#fr_gesi{
+    margin:10px;
+}
+
+#btn_zone{
+    display: inline-block;
+    margin-left:520px;
+}
+
+
+.btn_create{
+    float: right;
+}
+
+#mgesi{
+margin-top:70px;
+}
+
+h2{
+    font-size:20pt;
+    margin-top: 5px;
+}

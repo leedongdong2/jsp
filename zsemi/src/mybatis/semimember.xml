@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="semimember">
+  
+  <insert id="memberInsert" parameterType="semimember.SemimemberVo">
+   INSERT INTO semimember(mid,irum,password,phone,post,address,address2,account,host,posi) 
+   VALUES ( #{mid} ,#{irum},#{password},#{phone},#{post},#{address},#{address2},#{account},#{host},#{posi})
+  </insert>
+  
+  <update id="memberUpdate" parameterType="semimember.SemimemberVo">
+    UPDATE semimember 
+     SET irum = #{irum},phone=#{phone},post=#{post},address=#{address},address2=#{address2},account=#{account},host=#{host},posi=#{posi} 
+     WHERE mid= #{mid} AND password =#{password} 
+  </update>
+  
+  
+  <delete id="memberDelete" parameterType="String">
+  DELETE SEMIMEMBER WHERE mid=#{_parameter}
+  </delete>
+  
+  <select id="memberSearch" resultType="semimember.SemimemberVo" parameterType="String">
+   SELECT mid,irum,password,phone,post,address,address2,account,host,posi FROM semimember WHERE mid=#{_parameter}
+  </select>
+  
+  
+  <select id="logSearch" resultType="String" parameterType="semimember.SemimemberVo">
+    SELECT mid FROM SEMIMEMBER WHERE mid= #{mid} AND password= #{password}
+  </select>
+  
+  
+  <select id="idCheck" parameterType="String" resultType="String">
+   SELECT mid FROM SEMIMEMBER WHERE MID = #{_parameter}
+  </select>
+  
+  
+  </mapper>

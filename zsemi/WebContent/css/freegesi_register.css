@@ -1,0 +1,26 @@
+@charset "UTF-8";
+#page{
+    display: flex;
+}
+label{
+    margin-left: 280px;
+}
+#title{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 400px;
+}
+textarea{
+    resize: none;
+    margin-left: 280px;
+}
+#btn_write{
+    text-align: right;
+}
+
+#sub{
+    border:1px solid #000;
+    width:150px;
+    height: 600px;
+    box-sizing: border-box;
+}

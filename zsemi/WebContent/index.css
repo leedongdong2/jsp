@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import "reset.css";
+
+body{
+    width: 1400px;
+    margin: 0 auto;
+    border: 1px solid #000000;
+}
+
+#top_img{
+	width:100%;
+	height:200px;
+}
+
+#menu_box{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-items: center;
+    background-color: #858585;
+
+}
+.banner{
+    border:1px solid #000000;
+    width:100px;
+    height: 30px;
+    padding-left:100px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.menu{
+    border:1px solid #f00;
+    width:100px;
+    height:30px;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+footer{
+    box-sizing: border-box;
+    height: 105px;
+    border: 1px solid #000000;
+}
+
+
